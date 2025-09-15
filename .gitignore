@@ -1,0 +1,68 @@
+# Игнорируем файл настроек с конфиденциальными данными
+configs/settings.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# База данных
+*.db
+*.sqlite3
+*.sqlite
+
+# Логи
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.vs/
+*.sublime-workspace
+*.sublime-project
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+*~
+
+# Файлы Excel (если используются для тестов/временных данных)
+*.xlsx
+*.xls 
+
+.cursor/
